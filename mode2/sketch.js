@@ -39,7 +39,6 @@ volSlider = select("#vol");
 volSlider.mousePressed();
 volSlider.class("volSlider");
 
-getAudioContext().resume();
 
 rain2.loop();
 
@@ -74,6 +73,7 @@ function togglePlaying(){
 }
 
 function draw() {
+  getAudioContext().resume();
 
 //   if (modeChoice == "mode1") {
     // mode1();
