@@ -1,24 +1,36 @@
 
-body {
+html{
   margin: 0;
-/* font-family: 'Nunito', sans-serif;
-  color: #2E2E3A;
-  line-height: 1.5; */
+      height: 100%;
+}
+  body {
+    min-height: 100vh;
+  /* margin: 0; */
+  /* width: 100%;
+   height: 1000px; */
+   background-image: url('https://thao-nguyen-design.github.io/project-1-emulation/background.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   /* border: 1px solid red; */
+
 }
 
 
 header {
+  margin: 0;
+  padding-top: 18%;
+  /* background-image: url('https://thao-nguyen-design.github.io/project-1-emulation/background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
   /* background-color: #79B791; */
 }
 
 
 footer {
-    color: #2E2E3A;
-  padding-top: 100px;
-  margin: auto;
-  text-align: left;
-  width: 90%;
-  height: 200px;
+  color: #2E2E3A;
+  margin: 10% auto;
+  text-align: center;
+  width: 100%;
 }
 
 .title-container {
@@ -35,19 +47,9 @@ footer {
   width: 75%;
 }
 
-.image_container {
-  /* position: absolute; */
-  max-width: 500px;
-
-  /* padding: 10px; */
-  margin: auto;
-  text-align: center;
-
-}
-
 
 #title {
-  font-size: 50px;
+  font-size: 55px;
   color: #003F91;
 font-family: 'Balsamiq Sans', cursive;
   /* margin-top: 0px; */
@@ -55,9 +57,9 @@ font-family: 'Balsamiq Sans', cursive;
 }
 
 #subtitle{
-  font-size: 20px;
+  font-size: 35px;
   color: #003F91;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 #text {
@@ -69,23 +71,69 @@ font-family: 'Poppins', sans-serif;
   /* margin-bottom: 35px; */
 }
 
-
-/* header {
-
-width:100%;
-  margin:0;
-  background-color: black;
-} */
-
-
-
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 10px;
-  /* width: 300px; */
+.buttonClass {
+  width:100%;
+margin:auto;
+  text-align: center;
+  display: inline-block;
 }
 
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+#mode1{
+  border: 3px solid #003F91
+;
+  background-color: transparent;
+  color: #003F91
+;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 25px;
+font-family: 'Poppins', sans-serif;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#mode1:hover {
+  color: white;
+  background-color: #003F91
+;
+
+}
+
+#mode2{
+  border: 3px solid #003F91
+;
+  background-color: transparent;
+  color: #003F91
+;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 25px;
+font-family: 'Poppins', sans-serif;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#mode2:hover {
+  color: white;
+  background-color: #003F91
+;
+}
+
+#mode3{
+  border: 3px solid #003F91
+;
+  background-color: transparent;
+  color: #003F91
+;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 25px;
+font-family: 'Poppins', sans-serif;
+  /* margin-left: 25px; */
+  cursor: pointer;
+}
+
+#mode3:hover {
+  color: white;
+  background-color: #003F91;
 }
